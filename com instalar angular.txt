@@ -1,0 +1,34 @@
+***Angular para todos os Usuários no Laboratório****
+
+Abrir Prompt como Administrador:
+
+--> npm install --prefix C:\ProgramData\npm -g @angular/cli
+Vai instalar o angular em modo global criando pasta npm no caminho indicado.
+Esse caminho é acessivel a todos que loguem na maquina.
+
+-----------
+Depois crie variavel de ambiente, no "Path" com caminho:
+C:\ProgramData\npm\
+
+-----------
+Reinicie a máquina para aplicar em definitivo e teste com usuário de aluno
+via prompt de comando.
+
+para testar a instalação, execute no terminal:
+
+ng v
+
+
+Get-ExecutionPolicy
+
+
+Set-ExecutionPolicy RemoteSigned
+
+
+
+definir variavel ambiente para o sistema:
+[Environment]::SetEnvironmentVariable("VARIAVEL", "valor", "Machine")
+
+
+para rodar script shell
+& "local e nome script"

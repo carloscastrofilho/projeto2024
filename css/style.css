@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/img/fundo.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin-top: 50px; /* Movendo o card mais para cima */
+}
+
+.card {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 350px;
+}
+
+.logo {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.number {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    height: 45px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.consult-button {
+    background-color: #731414;
+}
+
+.reset-button {
+    background-color: #731414;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;}
